@@ -1,0 +1,33 @@
+
+html {
+  font-family: 'Bitter', serif;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-image: linear-gradient(to top, orange, white)
+  
+}
+
+.photo {
+  margin: 100px;
+  border: 7px solid green;
+  animation-duration: 2s;
+  animation-name: slidein;
+  
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%
+  }
+}
+
+
+
+#link {
+  color: red;
+  
+  
+}
+a:hover {
+  background-color: blue;
+  
+}
